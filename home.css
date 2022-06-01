@@ -1,0 +1,116 @@
+.body{
+    max-width: 100%;
+    background-color: rgb(18, 31, 61);
+}
+header{
+    max-width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    width: 100%;
+    z-index: 10;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul a{
+    position: relative;
+    transition: 0.7s;
+}
+
+.navbar{
+    background-color: rgb(18, 31, 61) !important;
+    width: 98%;
+    border: solid 0.1px;
+    border-color: white;
+    border-radius: 34px;
+
+}
+.img{
+    width: 150px;
+    height: 42px;
+
+}
+.imgFondo{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+
+}
+
+.color_aa{
+    color: white !important;
+    font-size: 19px;
+}
+
+.icon{
+    color: white;
+}
+.div{
+    padding: 7%;
+}
+.btn_corousel{
+    color: black;
+}
+.text{
+    color: white;
+}
+/*
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/carousel/fitboxing.png');
+    background-size: cover;
+    background-position: center center;
+    padding: 7%;
+}
+
+.color_a{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+.color_a svg,
+.color_a svg rect
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*fill: transparent;
+    
+}
+.color_a svg rect
+{
+    stroke: #00e2ff;
+    stroke-width: 4;
+    transition: 2s;
+    stroke-dasharray: 60 200;
+    stroke-dashoffset: 300;
+}
+.color_a:hover svg rect
+{
+    stroke: #000565;
+    stroke-dasharray: 200 60;
+    stroke-dashoffset: 0;
+}*/
