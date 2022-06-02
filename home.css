@@ -40,7 +40,6 @@ header ul a {
     border: solid 0.1px;
     border-color: white;
     border-radius: 34px;
-
 }
 
 .img {
@@ -160,7 +159,12 @@ table{
     .icon_card{
         width:12%;
     }
-
+    .div_nav{
+        width: 87%;
+    }
+    .div_body_xs{
+        margin-top: 122px;
+    }
 }
 @media (min-width: 768px) { 
     .div{
