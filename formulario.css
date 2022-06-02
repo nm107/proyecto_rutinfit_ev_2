@@ -135,3 +135,11 @@ form {
 .text {
     color: white;
 }
+@media (max-width: 576px) { 
+.aling{
+    text-align: left !important;
+}
+.margin{
+    margin-top: 63px !important;
+}
+}
