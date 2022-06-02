@@ -149,3 +149,25 @@ table{
         background-color: white;
         border-radius: 30px
 }
+.icon_card{
+    width:15%;
+    
+}
+@media (max-width: 576px) { 
+    .row_card{
+        width: 80%;
+    }
+    .icon_card{
+        width:12%;
+    }
+
+}
+@media (min-width: 768px) { 
+    .div{
+        flex-direction: row;
+    }
+    .icon_card{
+        width:15%;
+        
+    }
+ }
