@@ -133,46 +133,90 @@ header ul a {
     background-color: white;
 
 }
-.img_curso{
+
+.img_curso {
     width: 350px;
     height: 350px;
     border-radius: 20px;
 }
-tbody , tr, th,td{
+
+tbody,
+tr,
+th,
+td {
     border-style: solid;
     border-width: unset;
     border-color: rgb(18, 31, 61);
 }
-table{
-        color: rgb(18, 31, 61);
-        background-color: white;
-        border-radius: 30px
+
+table {
+    color: rgb(18, 31, 61);
+    background-color: white;
+    border-radius: 30px
 }
-.icon_card{
-    width:15%;
-    
+
+.icon_card {
+    width: 15%;
+
 }
-@media (max-width: 576px) { 
-    .row_card{
+
+@media (max-width: 576px) {
+    .row_card {
         width: 80%;
     }
-    .icon_card{
-        width:12%;
+
+    .icon_card {
+        width: 12%;
     }
-    .div_nav{
+
+    .div_nav {
         width: 87%;
     }
-    .div_body_xs{
+
+    .div_body_xs {
         margin-top: 122px;
     }
+
+    .h1 {
+        color: white;
+        margin-top: 80px;
+        text-align: center;
+        font-size: 21px !important;
+    }
+    .h1_2{
+        font-size: 32px !important;
+    }
+    .btn {
+        width: 250px;
+        height: 50px;
+        border-radius: 45px;
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        box-shadow: 0px 8px 15px rgb(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        background: #59FF00;
+        margin: 10px;
+
+    }
     
+    .btn:hover {
+        background: #2ceae5;
+        transform: translateY(-7px);
+        color: #fff;
+        box-shadow: 0px 10px 25px rgb(46, 223, 229, 0.445);
+    }
 }
-@media (min-width: 768px) { 
-    .div{
+
+@media (min-width: 768px) {
+    .div {
         flex-direction: row;
     }
-    .icon_card{
-        width:15%;
-        
+
+    .icon_card {
+        width: 15%;
+
     }
- }
+}
